@@ -1,0 +1,27 @@
+# ============================================================
+# requirements.txt — Olist Satisfaction Prediction Project
+# ============================================================
+# Installer avec : pip install -r requirements.txt
+# ============================================================
+
+# --- Manipulation de données ---
+pandas==2.3.3
+numpy==2.3.5
+
+# --- Visualisation ---
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==5.22.0           # Graphiques interactifs (optionnel)
+
+# --- Machine Learning ---
+scikit-learn==1.7.2
+xgboost==3.2.0           # Algorithme bonus (Gradient Boosting)
+imbalanced-learn==0.14.1 # Gestion du déséquilibre de classes (SMOTE)
+
+# --- Notebooks ---
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# --- Utilitaires ---
+tqdm==4.66.4             # Barres de progression
+joblib==1.4.2            # Sauvegarde de modèles
